@@ -1,0 +1,82 @@
+policies:
+ 
+   - name: ec2-report
+     resource: ec2
+     
+           
+   - name: ebs-report
+     resource: ebs
+
+   - name: waf-report
+     resource: waf 
+
+   - name: workspaces-directory-report
+     resource: workspaces-directory
+
+   - name: directory-report
+     resource: directory
+     
+           
+   - name: ebs-snapshot-report
+     resource: ebs-snapshot 
+     
+           
+   - name: security-group-report
+     resource: security-group 
+     
+           
+   - name: ami-report
+     resource: ami 
+     
+          
+   - name: dynamodb-table-report
+     resource: dynamodb-table 
+     
+          
+   - name: dynamodb-stream-report
+     resource: dynamodb-stream
+     
+          
+   - name: dynamodb-backup-report
+     resource: dynamodb-backup
+     
+          
+   - name: elasticsearch-resources-report
+     resource: elasticsearch 
+     
+          
+   - name: elb-report
+     resource: elb 
+     
+          
+   - name: eni-report
+     resource: eni 
+     
+          
+   - name: lambda-report
+     resource: lambda 
+     
+          
+   - name: lambda-layer-report
+     resource: lambda-layer 
+     
+          
+   - name: rds-report
+     resource: rds 
+     
+          
+   - name: s3-report
+     resource: s3 
+     
+          
+   - name: sqs-report
+     resource: sqs 
+     
+
+   - name: sns-report
+     resource: sns 
+     
+                   
+   - name: cfn-report
+     resource: cfn 
+     
